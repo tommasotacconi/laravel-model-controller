@@ -7,3 +7,5 @@
       <a href="{{ route('movies.index') }}">Movie homepage</a>
     </h1>
 @endsection
+
+{{-- final commit --}}
