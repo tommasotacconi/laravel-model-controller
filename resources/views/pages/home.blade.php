@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('page-title', 'Homepage')
+@section('page-title', 'Movie db')
 
 @section('main-content')
     <h1>
-        Homepage
+      <a href="{{ route('movies.index') }}">Movie homepage</a>
     </h1>
 @endsection
